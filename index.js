@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", (e) => {
+//document.addEventListener("DOMContentLoaded", (e) => {
   const titanicButton = document.getElementById('Titanic')
   const terminatorButton = document.getElementById('Terminator 2')
   
@@ -46,13 +46,14 @@ document.addEventListener("DOMContentLoaded", (e) => {
   titanicButton.addEventListener('click', () => onMovieChange('Titanic'))
   terminatorButton.addEventListener('click',() => onMovieChange('Terminator 2'))
   
+  onMovieChange('Titanic')
   
   
   
   
   
 
-});
+//});
 
 
   // script tag should always be at the end of the body 
